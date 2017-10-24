@@ -122,6 +122,7 @@ public class PostRequest
 
 		Response Getresp=given().when().get("http://localhost:3000/posts/4");
 		System.out.println(Getresp.asString());
+		System.out.println("Push the changes into GIt hub");
 	}
 	
 }
